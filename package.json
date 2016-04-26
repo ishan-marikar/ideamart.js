@@ -1,0 +1,29 @@
+{
+  "name": "ideamart.js",
+  "version": "0.1.0",
+  "description": "A simple node.js wrapper for the IdeaMart IDEA-PRO APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ishan Marikar <hello@imarikar.com>",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "unirest": "^0.4.2"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan-marikar/ideamart.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ishan-marikar/ideamart.js/issues"
+  },
+  "homepage": "https://github.com/ishan-marikar/ideamart.js#readme"
+}
