@@ -1,6 +1,6 @@
 {
-  "name": "ideamart.js",
-  "version": "0.1.0",
+  "name": "ideamart",
+  "version": "0.1.1",
   "description": "A simple node.js wrapper for the IdeaMart IDEA-PRO APIs",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "directories": {
     "example": "example",
-    "test": "test"
+    "lib": "lib"
   },
   "devDependencies": {},
   "repository": {
