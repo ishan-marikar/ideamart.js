@@ -4,14 +4,17 @@
   "description": "A simple node.js wrapper for the IdeaMart IDEA-PRO APIs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "Ishan Marikar <hello@imarikar.com>",
   "license": "ISC",
   "dependencies": {
     "debug": "^2.2.0",
-    "unirest": "^0.4.2"
+    "unirest": "^0.4.2",
+    "snyk": "^1.85.0"
   },
   "directories": {
     "example": "example",
@@ -25,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/ishan-marikar/ideamart.js/issues"
   },
-  "homepage": "https://github.com/ishan-marikar/ideamart.js#readme"
+  "homepage": "https://github.com/ishan-marikar/ideamart.js#readme",
+  "snyk": true
 }
