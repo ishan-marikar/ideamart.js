@@ -10,7 +10,7 @@
   "author": "Ishan Marikar <hello@imarikar.com>",
   "license": "ISC",
   "dependencies": {
-    "debug": "^2.2.0",
+    "debug": "^3.1.0",
     "unirest": "^0.4.2"
   },
   "directories": {
